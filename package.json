@@ -1,8 +1,8 @@
 {
   "name": "commafy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add commas to a number",
-  "main": "index.js",
+  "main": "commafy.js",
   "directories": {
     "test": "test"
   },
