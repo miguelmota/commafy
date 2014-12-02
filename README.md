@@ -1,4 +1,6 @@
-# Commafy
+# commafy
+
+Add commas to a number.
 
 # Install
 
