@@ -11,6 +11,8 @@ npm install commafy
 # Usage
 
 ```javascript
+var commafy = require('commafy');
+
 commafy(1000000) // '1,000,000'
 ```
 
