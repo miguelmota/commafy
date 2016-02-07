@@ -17,7 +17,7 @@ console.log(commafy(1000000)); // '1,000,000'
 console.log(commafy(1000)); // '1,000'
 console.log(commafy(1000.123)); // '1,000.123'
 console.log(commafy(100)); // '100'
-console.log(commafy(1e4)); '10,000'
+console.log(commafy(1e4)); // '10,000'
 ```
 
 If the value is not numeric it will immediately return the value back.
