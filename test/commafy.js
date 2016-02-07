@@ -2,7 +2,7 @@ var test = require('tape');
 var commafy = require('../commafy');
 
 test('commafy', function (t) {
-  t.plan(22);
+  t.plan(23);
 
   t.equal(commafy(), undefined);
   t.equal(commafy(null), null);
@@ -27,4 +27,5 @@ test('commafy', function (t) {
   t.equal(commafy(14734534.53), '14,734,534.53');
   t.equal(commafy((10200.50).toFixed(3)), '10,200.500');
   t.equal(commafy(1e4), '10,000');
+  t.equal(commafy(1e6), '1,000,000');
 });
