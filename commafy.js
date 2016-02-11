@@ -10,11 +10,17 @@
   }
 
   function commafy(val) {
-    if (!isNumeric(val) || Math.abs(val) === Infinity) {
+    if (typeof val === 'undefined' || val === null) {
+      val = '';
+    }
+
+    val = val.toString();
+
+    if (!isNumeric(val)) {
       return val;
     }
 
-    var parts = val.toString().split('.');
+    var parts = val.split('.');
 
     parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     return parts.join('.');

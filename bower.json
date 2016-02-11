@@ -1,7 +1,7 @@
 {
   "name": "commafy",
   "main": "commafy.js",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "homepage": "https://github.com/miguelmota/commafy",
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"

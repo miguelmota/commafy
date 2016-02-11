@@ -20,8 +20,6 @@ console.log(commafy(100)); // '100'
 console.log(commafy(1e4)); // '10,000'
 ```
 
-If the value is not numeric it will immediately return the value back.
-
 # License
 
 MIT
