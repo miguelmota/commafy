@@ -1,13 +1,14 @@
 {
   "name": "commafy",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Add commas to a number",
   "main": "commafy.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "lint": "standard --fix commafy.js test/commafy.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
     "url": "https://github.com/miguelmota/commafy/issues"
   },
   "homepage": "https://github.com/miguelmota/commafy",
-  "dependencies": {
-    "tape": "^3.0.3"
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^16.0.1",
+    "tape": "^5.0.1"
   }
 }
